@@ -9,11 +9,11 @@ on:
       users:
         description: 'List of users to track'
         required: true
-        default: 'ananos,Pyrromanis,gntouts'
+        default: 'ananos,Pyrromanis,gntouts,papazof'
       repos:
         description: 'List of repositories to check'
         required: true
-        default: 'kata-containers/kata-containers,unikraft/unikraft,containerd/containerd,sigstore/rekor-monitor'
+        default: 'kata-containers/kata-containers,unikraft/unikraft,containerd/containerd,sigstore/rekor-monitor,dragonflyoss/nydus'
 
 
 jobs:
